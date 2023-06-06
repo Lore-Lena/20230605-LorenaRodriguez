@@ -1,0 +1,36 @@
+  501  mkdir 20230605-LorenaRodriguez
+  502  cd 20230605-LorenaRodriguez
+  503  git init
+  504  git remote add origin https://github.com/Lore-Lena/20230605-LorenaRodriguez.git
+  505  touch comandos.txt main.js index.html
+  506  git add .
+  507  git commit -m "commit 01 de LorenaRodriguez"
+  508  git push origin main
+  509  git branch feature01
+  510  git checkout feature01
+  511  mkdir Terminal Hardware
+  512  touch Terminal/resume.txt Hardware/resume.txt
+  513  git add .
+  514  git commit -m "commit 02 de LorenaRodriguez"
+  515  git push origin feature01
+  516  git branch feature02
+  517  git checkout feature02
+  518  git add .
+  519  git commit -m "commit 03 de LorenaRodriguez"
+  520  git push origin feature02
+  521  git checkout main
+  522  git status
+  523  checkout feature02
+  524  git checkout feature02
+  525  git status
+  526  git log
+  527  git add .
+  528  git commit -m "commit 03 de LorenaRodriguez"
+  529  git push origin feature02
+  530  git add .
+  531  git commit -m "commit 03 de LorenaRodriguez"
+  532  git push origin feature02
+  533  git checkout main
+  534  mv comando.txt comandoUtilizados.txt
+  535  mv comandos.txt comandosUtilizados.txt
+  536  history
